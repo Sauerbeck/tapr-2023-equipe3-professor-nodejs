@@ -1,0 +1,19 @@
+== APP - tapr-2023-equipe4-microservprof-javascript == 
+== APP - tapr-2023-equipe4-microservprof-javascript == > microservprof@1.0.0 dev
+== APP - tapr-2023-equipe4-microservprof-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe4-microservprof-javascript == 
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe4-microservprof-javascript == [1701734759900] INFO (tapr-2023-equipe4-microservprof-javascript/45860 on codespaces-44e732): up and running in development @: codespaces-44e732 on port: 3000}
+== APP - tapr-2023-equipe4-microservprof-javascript == /workspaces/tapr-2023-equipe3-professor-nodejs/microservprof/server/api/services/professor.service.ts:50
+== APP - tapr-2023-equipe4-microservprof-javascript ==         professorAntigo.nome = professor.nome;
+== APP - tapr-2023-equipe4-microservprof-javascript ==                             ^
+== APP - tapr-2023-equipe4-microservprof-javascript == TypeError: Cannot set properties of undefined (setting 'nome')
+== APP - tapr-2023-equipe4-microservprof-javascript ==     at ProfessorService.update (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprof/server/api/services/professor.service.ts:50:29)
+== APP - tapr-2023-equipe4-microservprof-javascript ==     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] app crashed - waiting for file changes before starting...
+
+termination signal received: shutting down

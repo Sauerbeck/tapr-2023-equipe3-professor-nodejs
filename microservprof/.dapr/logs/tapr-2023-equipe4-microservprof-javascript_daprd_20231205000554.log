@@ -1,0 +1,60 @@
+Starting Dapr with id tapr-2023-equipe4-microservprof-javascript. HTTP Port: 35469. gRPC Port: 33719
+Updating metadata for cliPID: 45751
+time="2023-12-05T00:05:54.953691265Z" level=info msg="Starting Dapr Runtime -- version 1.12.2 -- commit f954254ed520409602024ea6d507d0405afa1f07" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:54.954274502Z" level=info msg="Log level set to: info" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:54.954951324Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.security type=log ver=1.12.2
+time="2023-12-05T00:05:54.956573468Z" level=info msg="metrics server started on :34675/" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:54.956866133Z" level=info msg="standalone mode configured" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:54.956918231Z" level=info msg="app id: tapr-2023-equipe4-microservprof-javascript" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:54.957001967Z" level=info msg="Dapr trace sampler initialized: DaprTraceSampler(P=1.000000)" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:54.957995358Z" level=info msg="local service entry announced: tapr-2023-equipe4-microservprof-javascript -> 172.16.5.4:34863" app_id=tapr-2023-equipe4-microservprof-javascript component="mdns (nameResolution/v1)" instance=codespaces-44e732 scope=dapr.contrib type=log ver=1.12.2
+time="2023-12-05T00:05:54.958054809Z" level=info msg="Initialized name resolution to mdns" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:54.958177518Z" level=info msg="Loading components…" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:54.959311662Z" level=info msg="Waiting for all outstanding components to be processed…" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.960817081Z" level=info msg="Component loaded: servicebus-pubsub (pubsub.azure.servicebus.topics/v1)" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.961548745Z" level=info msg="All outstanding components processed" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.961855827Z" level=info msg="Loading endpoints…" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.962418827Z" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.962698298Z" level=info msg="All outstanding http endpoints processed" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.963112129Z" level=info msg="gRPC server listening on TCP address: :33719" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-05T00:05:57.963364329Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-05T00:05:57.96343427Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-05T00:05:57.963548903Z" level=info msg="Registering workflow engine for gRPC endpoint: [::]:33719" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-05T00:05:57.963824878Z" level=info msg="API gRPC server is running on port 33719" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.964199336Z" level=info msg="Enabled max body size HTTP middleware with size 4 MB" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:05:57.964263395Z" level=info msg="Enabled tracing HTTP middleware" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:05:57.964301015Z" level=info msg="Enabled metrics HTTP middleware" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:05:57.964931971Z" level=info msg="HTTP server listening on TCP address: :35469" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:05:57.965239595Z" level=info msg="HTTP server is running on port 35469" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.965564641Z" level=info msg="The request body size parameter is: 4" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.965648727Z" level=info msg="gRPC server listening on TCP address: :34863" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-05T00:05:57.965874158Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-05T00:05:57.9659024Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-05T00:05:57.96597758Z" level=info msg="Internal gRPC server is running on port 34863" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:57.966199494Z" level=info msg="application protocol: http. waiting on port 3000.  This will block until the app is listening on that port." app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:05:59.980619248Z" level=info msg="application discovered on port 3000" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:06:00.030263368Z" level=info msg="Application configuration loaded" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:06:00.030823753Z" level=info msg="actors: state store is not configured - this is okay for clients but services with hosted actors will fail to initialize!" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:06:00.031313485Z" level=info msg="Actor runtime started. Actor idle timeout: 1h0m0s. Actor scan interval: 30s" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.actor type=log ver=1.12.2
+time="2023-12-05T00:06:00.032243319Z" level=info msg="Configuring workflow engine with actors backend" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.wfengine type=log ver=1.12.2
+time="2023-12-05T00:06:00.032296418Z" level=info msg="Registering component for dapr workflow engine..." app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:06:00.03234038Z" level=info msg="Initializing Dapr workflow component" app_id=tapr-2023-equipe4-microservprof-javascript component="dapr (workflow.dapr/v1)" instance=codespaces-44e732 scope=dapr.contrib type=log ver=1.12.2
+time="2023-12-05T00:06:00.038643239Z" level=info msg="dapr initialized. Status: Running. Init Elapsed 5081ms" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:06:00.047989711Z" level=info msg="Placement tables updated, version: 0" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.actors.placement type=log ver=1.12.2
+Updating metadata for app command: npm run dev
+Updating metadata for appPID: 45790
+You're up and running! Dapr logs will appear here.
+
+time="2023-12-05T00:09:24.329762626Z" level=info msg="Received signal 'interrupt'; beginning shutdown" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.signals type=log ver=1.12.2
+time="2023-12-05T00:09:24.331212252Z" level=info msg="Dapr is shutting down" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:09:24.331282974Z" level=info msg="Shutting down component dapr (workflow.dapr/v1)" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:09:24.331330392Z" level=info msg="Shutting down workflow engine" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:09:24.331380145Z" level=info msg="Shutting down actor" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:09:24.3315277Z" level=info msg="Closing HTTP server [::]:35469…" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-05T00:09:24.331608961Z" level=info msg="Shutting down component servicebus-pubsub (pubsub.azure.servicebus.topics/v1)" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:09:24.331652903Z" level=info msg="Dapr runtime stopped" app_id=tapr-2023-equipe4-microservprof-javascript instance=codespaces-44e732 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-05T00:09:24.331679052Z" level=info msg="stopping mDNS server for app id: tapr-2023-equipe4-microservprof-javascript" app_id=tapr-2023-equipe4-microservprof-javascript component="mdns (nameResolution/v1)" instance=codespaces-44e732 scope=dapr.contrib type=log ver=1.12.2
+
+termination signal received: shutting down
+Exited Dapr successfully
+Exited App successfully

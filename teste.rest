@@ -1,0 +1,27 @@
+### Buscar todos os professores 
+GET http://localhost:3000/api/v1/professores
+
+### Buscar professor pelo ID 
+GET http://localhost:3000/api/v1/professores/f01ab1a2-c0ff-4552-9329-698c7d66831c
+
+### Inserir um novo professor
+POST http://localhost:3000/api/v1/professores 
+Content-Type: application/json
+
+{
+  "nome": "Jonas", 
+  "materia": "Direção defensiva"
+}
+
+### Atualizar um professor
+PUT http://localhost:3000/api/v1/professores/f01ab1a2-c0ff-4552-9329-698c7d66831c
+Content-Type: application/json
+
+{
+  "nome": "guina", 
+  "materia": "topicos"
+}
+
+### Remover um professor 
+DELETE http://localhost:3000/api/v1/professores/f01ab1a2-c0ff-4552-9329-698c7d66831c
+Content-Type: application/json

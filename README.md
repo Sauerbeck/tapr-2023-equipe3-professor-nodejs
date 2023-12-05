@@ -9,3 +9,7 @@ az login -u mateus.sauerbeck@univille.br
 az ad signed-in-user show
 
 az cosmosdb sql role assignment create --account-name cosmossauerbeck --resource-group rg-tapr2023-brazilsouth-dev-001 --role-assignment-id 00000000-0000-0000-0000-000000000002 --role-definition-name "Cosmos DB Built-in Data Contributor" --scope "/" --principal-id 30b26f49-2047-432b-8c1e-e1e972df0207
+
+
+
+dapr publish --publish-app-id tapr-2023-equipe4-microservprof-javascript --pubsub servicebus-pubsub --topic topico-equipe-4-curso -- data '{"id": "1234","nome": "guina"}

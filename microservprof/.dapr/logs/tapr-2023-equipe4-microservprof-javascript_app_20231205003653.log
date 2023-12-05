@@ -1,0 +1,12 @@
+== APP - tapr-2023-equipe4-microservprof-javascript == 
+== APP - tapr-2023-equipe4-microservprof-javascript == > microservprof@1.0.0 dev
+== APP - tapr-2023-equipe4-microservprof-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe4-microservprof-javascript == 
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe4-microservprof-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe4-microservprof-javascript == [1701736617195] INFO (tapr-2023-equipe4-microservprof-javascript/68205 on codespaces-44e732): up and running in development @: codespaces-44e732 on port: 3000}
+
+termination signal received: shutting down
